@@ -1,3 +1,9 @@
+# revision 21912
+# category Package
+# catalog-ctan /info/translations/fancyhdr/it
+# catalog-date 2011-04-01 11:10:52 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-fancyhdr-it
 Version:	20110401
 Release:	1
@@ -23,6 +29,7 @@ package.
 %doc %{_texmfdistdir}/doc/latex/fancyhdr-it/README
 %doc %{_texmfdistdir}/doc/latex/fancyhdr-it/itfancyhdr.pdf
 %doc %{_texmfdistdir}/doc/latex/fancyhdr-it/itfancyhdr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -33,3 +40,5 @@ package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
