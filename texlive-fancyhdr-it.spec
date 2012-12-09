@@ -37,3 +37,17 @@ package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110401-2
++ Revision: 751756
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110401-1
++ Revision: 718413
+- texlive-fancyhdr-it
+- texlive-fancyhdr-it
+- texlive-fancyhdr-it
+- texlive-fancyhdr-it
+
