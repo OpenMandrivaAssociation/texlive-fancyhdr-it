@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-fancyhdr-it
 Version:	20110401
-Release:	2
+Release:	3
 Summary:	Italian translation of fancyhdr documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/fancyhdr/it
