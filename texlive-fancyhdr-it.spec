@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-fancyhdr-it
-Version:	20110401
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Italian translation of fancyhdr documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/fancyhdr/it
