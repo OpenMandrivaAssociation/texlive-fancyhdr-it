@@ -1,9 +1,3 @@
-# revision 21912
-# category Package
-# catalog-ctan /info/translations/fancyhdr/it
-# catalog-date 2011-04-01 11:10:52 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-fancyhdr-it
 Version:	20170414
 Release:	1
@@ -23,10 +17,7 @@ package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/fancyhdr-it/Makefile
-%doc %{_texmfdistdir}/doc/latex/fancyhdr-it/README
-%doc %{_texmfdistdir}/doc/latex/fancyhdr-it/itfancyhdr.pdf
-%doc %{_texmfdistdir}/doc/latex/fancyhdr-it/itfancyhdr.tex
+%doc %{_texmfdistdir}/doc/latex/fancyhdr-it
 
 #-----------------------------------------------------------------------
 %prep
@@ -37,17 +28,3 @@ package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110401-2
-+ Revision: 751756
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110401-1
-+ Revision: 718413
-- texlive-fancyhdr-it
-- texlive-fancyhdr-it
-- texlive-fancyhdr-it
-- texlive-fancyhdr-it
-
