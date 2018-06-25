@@ -1,5 +1,5 @@
 Name:		texlive-fancyhdr-it
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Italian translation of fancyhdr documentation
 Group:		Publishing
