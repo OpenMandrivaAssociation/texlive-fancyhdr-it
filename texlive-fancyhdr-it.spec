@@ -1,6 +1,6 @@
 Name:		texlive-fancyhdr-it
 Version:	21912
-Release:	1
+Release:	2
 Summary:	Italian translation of fancyhdr documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/fancyhdr/it
