@@ -3,7 +3,7 @@ Version:	21912
 Release:	2
 Summary:	Italian translation of fancyhdr documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/fancyhdr/it
+URL:		https://www.ctan.org/tex-archive/info/translations/fancyhdr/it
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancyhdr-it.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancyhdr-it.doc.r%{version}.tar.xz
